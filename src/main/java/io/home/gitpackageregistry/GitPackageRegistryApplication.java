@@ -14,7 +14,12 @@ public class GitPackageRegistryApplication {
 	}
 
 	@GetMapping("/")
+	public String showAppName() {
+		return "Git Package Registry App";
+	}
+
+	@GetMapping("/status")
 	public String showAppStatus() {
-		return "Micro service is in running status";
+		return "Git Package Registry App is in running status";
 	}
 }
