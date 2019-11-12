@@ -28,5 +28,10 @@
 
     docker push docker.pkg.github.com/vipulkumarsharma/git-package-registry/git-package-demo:v1
 
+<b>Other commands</b>
+
+    docker run git-package-demo:v1 -p 8080:8080
+    
 <hr>
+   
 <i>Note : Use account name in lowercase only (in URL & tagging)</i>
